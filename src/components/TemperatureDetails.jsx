@@ -25,7 +25,7 @@ const TemperatureDetails = ({ weather: { details, icon, temp, temp_min, temp_max
                     <div className="flex font-light text-sm items-center justify-center">
                         <UilTemperature size={18} className='mr-1' />
                         Real fell:
-                        <span className='font-medium ml-1'>{`${feels_like.toFixed()}`}</span>
+                        <span className='font-medium ml-1'>{`${feels_like.toFixed()}°`}</span>
                     </div>
 
                     <div className="flex font-light text-sm items-center justify-center">
@@ -51,11 +51,11 @@ const TemperatureDetails = ({ weather: { details, icon, temp, temp_min, temp_max
                 <p className="font-light"> Set: <span className='font-medium ml-1'>{formatToLocalTime(sunset, timezone, 'hh:mm a')} </span> </p>
                 <p className="font-light"> | </p>
 
-                <UilSun />
+                <UilArrowUp />
                 <p className="font-light"> High: <span className='font-medium ml-1'>{`${temp_max.toFixed()}°`}</span> </p>
                 <p className="font-light"> | </p>
 
-                <UilSun />
+                <UilArrowDown />
                 <p className="font-light"> Low: <span className='font-medium ml-1'>{`${temp_min.toFixed()}°`}</span> </p>
 
             </div>

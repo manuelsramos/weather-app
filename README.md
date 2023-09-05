@@ -1,70 +1,72 @@
-# Getting Started with Create React App
+# Weather App
+It is an application created to visualize weather states from different parts of the world. In it we can observe data of interest such as humidity, wind speed, thermal sensation, etc. It also has the functionality of being able to change the unit of measure to go from centigrade to Fahrenheit and to be able to locate the current location of the user.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Dependencies
 
-## Available Scripts
+The following technologies and libraries were used to create this page:
 
-In the project directory, you can run:
+-[HTML5]
+-[CSS3]
+-[Javascript]
+-[ReactJS]
+-[Tailwind] - As a design framework
+-[React-toastify] - For messages when making changes.
+-[Luxon] - As a library to obtain hourly data.
+-[Open Weather API]  
+-[Icon Scout]
 
-### `npm start`
+I should add that previously we could get hourly and daily forecast data. But, due to commercial changes in the API used, this service was terminated.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Thank you for the opportunity to work with Tailwind.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Installation
 
-### `npm test`
+Created with Vite React App - To run:
+```sh
+npm run dev
+```
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+For production environments...
 
-### `npm run build`
+```sh
+npm install --production
+NODE_ENV=production node app
+```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+--------------------------------------------------------------------------------
+# Weather App
+Es una aplicación creada para visualizar estados del clima de distintas partes del mundo. En ella podemos observar datos de interés como es la humedad, velocidad del viento, sensación térmica, etc. Tambien tiene la funcionalidad de poder cambiar la unidad de medida para pasar de centigrados a farenheit y de poder ubicar la ubicación actual del usuario. 
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Dependencias
 
-### `npm run eject`
+Para crear esta página se utilizaron las siguientes tecnologías y librerias:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- [HTML5]
+- [CSS3]
+- [Javascript] 
+- [React JS] 
+- -[Tailwind] - Como framework de diseño
+- -[React-toastify] - Para mensajes al efectuar cambios.
+- -[Luxon] - Como libreria para obtener datos horarios.
+- -[Open Weather API]
+- -[Icon Scout]
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Debo agregar que anteriormente podiamos obtener datos del pronostico por hora y día. Pero, por cambios comerciales de la API utilizada este servicio fue dada de baja.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Gracias por la oportunidad de poder trabajar con Tailwind.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Installation
 
-## Learn More
+Creado con Vite React App - Para ejecutar:
+```sh
+npm run dev
+```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+For production environments...
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+```sh
+npm install --production
+NODE_ENV=production node app
+```
 
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)

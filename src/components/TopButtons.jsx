@@ -5,7 +5,6 @@ const TopButtons = ({ setQuery }) => {
         {
             id: 1,
             title: 'Buenos Aires',
-
         },
         {
             id: 2,

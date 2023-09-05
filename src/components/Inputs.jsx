@@ -27,6 +27,7 @@ const Inputs = ({ setQuery, units, setUnits }) => {
     const handleUnitsBottom = (e) => {
         const selectedUnit = e.currentTarget.name
         if (units !== selectedUnit) setUnits(selectedUnit);
+
     }
 
     return (
@@ -48,9 +49,9 @@ const Inputs = ({ setQuery, units, setUnits }) => {
 
             <div className="flex flex-row w-1/4 items-center justify-center">
                 <button name='metric' className='text-xl text-white font-light transition 
-                ease-out hover:scale-125' onClick={handleUnitsBottom}>°C</button>
+                ease-out hover:scale-125' onClick={handleUnitsBottom}>°C </button>
 
-                <p className="text-xl text-white mx-1">|</p>
+                <p className="text-xl text-white mx-1"> |</p>
 
                 <button name='imperial' className='text-xl text-white font-light transition 
                 ease-out hover:scale-125' onClick={handleUnitsBottom}>°F</button>

@@ -13,11 +13,11 @@ const Forecast = ({ title, items }) => {
             <div className="flex flex-row items-center justify-between
              text-white">
                 {items && items.map((item) => (
-                    <div className="flex flex-col items-center justify-center">
+                    <div className="flex flex-col items-center 
+                    justify-center">
 
                         <p className="font-light text-sm">
-                            {item.title}
-                        </p>
+                            {item.title} </p>
                         <img src={iconUrlFromCode(item.icon)}
                             alt=""
                             className='w-12 my-1' />
